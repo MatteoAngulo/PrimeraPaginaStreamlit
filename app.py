@@ -5,6 +5,7 @@ from streamlit_lottie import st_lottie
 
 url = 'https://lottie.host/4eb1dc2f-a8a5-4a1b-87cd-8883507dea4b/w2xhxe5IxN.json'
 
+
 # Función para cargar una animación Lottie desde una URL
 def load_lottieurl(url):
   r = requests.get(url)
